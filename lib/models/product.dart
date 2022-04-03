@@ -15,11 +15,27 @@ class Product {
 }
 List<Product> products = [
   Product
-("assets/bag1.jpeg", "Bag", "Elegant Brown Bag", 1200, 12, Colors.grey, 1),
+("assets/bag1.jpeg",
+      "Bag",
+      "Elegant Brown Bag",
+      1200, 12,
+      Colors.grey,
+      1),
   Product
-("assets/bag2.jpeg", "Bag", "Dailywear Bag", 1500, 16, Colors.grey, 2),
+("assets/bag2.jpeg",
+      "Bag",
+      "Dailywear Bag",
+      1500, 16,
+      Colors.grey,
+      2),
   Product
-("assets/bag3.jpg", "bag", "Elegant Red Bag", 1500, 16, Colors.grey, 3),
+("assets/bag3.jpg",
+      "bag",
+      "Elegant Red Bag",
+      1500,
+      16,
+      Colors.grey,
+       3),
   Product
 ("assets/bag4.jpg", "bag", "Penstemon Handbags", 1500, 16, Colors.grey, 4),
   Product

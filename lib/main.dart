@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:onlineshopping/constant.dart';
-import 'package:onlineshopping/screens/home_screen.dart';
+import 'package:onlineshopping/screens/home/home_screen.dart';
 void main() {
-  runApp(MainScreen());
+  runApp(const MainScreen());
 }
 
 class MainScreen extends StatelessWidget {
+  const MainScreen({Key? key}) : super(key: key);
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {

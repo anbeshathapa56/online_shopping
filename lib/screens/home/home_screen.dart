@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:onlineshopping/constant.dart';
+import 'package:onlineshopping/screens/home/components/body.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
+    body: Body(),
     );
   }
 
@@ -35,7 +37,7 @@ class HomeScreen extends StatelessWidget {
           ),
           onPressed: () {},
         ),
-         SizedBox(width: kDefaultPadding / 2)
+        const SizedBox(width: kDefaultPadding / 2)
       ],
     );
   }

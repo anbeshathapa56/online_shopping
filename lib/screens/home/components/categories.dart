@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../constant.dart';
+import '../../../constant.dart';
 class Categories extends StatefulWidget {
   const Categories({Key? key}) : super(key: key);
 
@@ -46,7 +45,7 @@ class _CategoriesState extends State<Categories> {
               ),
             ),
             Container(
-              margin: EdgeInsets.only(top: kDefaultPadding /4),
+              margin: const EdgeInsets.only(top: kDefaultPadding /4),
               height: 2,
               width: 30,
               color: selectedIndex == index? Colors.black: Colors.transparent,
